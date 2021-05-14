@@ -3,3 +3,5 @@ java -jar agent.jar -jnlpUrl http://localhost:8080/computer/Windows_Slave/jenkin
 
 echo 9ef1b97dfab87ce0d542136424e4205d2c516e083fc1004d46584e4a4276def8 > secret-file
 java -jar agent.jar -jnlpUrl http://localhost:8080/computer/Windows_Slave/jenkins-agent.jnlp -secret @secret-file -workDir "D:\window_slave"
+
+ https://bbbd801fdb49.ngrok.io
